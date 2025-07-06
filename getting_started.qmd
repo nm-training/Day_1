@@ -1,0 +1,139 @@
+---
+title: "Fundamentals of R"
+format: html
+editor: visual
+---
+
+## Running Your First Code
+
+> R can be your calculator.
+
+```{r}
+1 + 5  
+
+10 - 5  
+
+10 * 5 
+
+10 / 2 
+```
+
+> Your Turn 01
+
+Add: 10 + 20 Substract: 10 - 20
+
+```{r}
+
+
+
+```
+
+> R can do statistical calculation too.
+
+```{r}
+
+1:10
+
+sum(1:1000) 
+
+mean(1:10)
+
+median(10:20)
+
+```
+
+> Your Turn 02
+
+Sum: 10 to 20 Mean: 100 to 500
+
+```{r}
+
+
+
+```
+
+## Running Your First Plot
+
+```{r}
+plot(cars)
+```
+
+## Ask for Help
+
+```{r}
+?cars
+```
+
+## Comments
+
+-   Comments are helper text in R program
+-   Written using `#` in the statement.
+-   Makes our code understandable.
+
+```{r}
+1 + 5  # Add
+
+10 - 5  # Subtract
+
+10 * 5 # Multiply
+
+10 / 2 # Divide
+```
+
+### Reserved words (Keywords)
+
+Reserved words (or keywords) are a set of words that have special meaning.
+
+-   It cannot be used as an identifier (variable name, function name etc.).
+-   You can type ?reserved in R console to see list of reserved words in R.
+
+```         
+if, else, repeat, while, function, for, next, break,
+TRUE, FALSE, NULL, Inf, NaN, NA, NA_integer_, NA_real_,
+NA_complex_, NA_character_
+```
+
+```{r}
+?reserved
+```
+
+### Essential Tips for Beginners
+
+1.  *File Paths in R*
+
+``` r
+# ✅ Recommended style (forward slashes work everywhere)  - Windows, Mac or Linux
+"D:/Clinical_Trial/Data/SDTM"
+
+# ❌ Avoid (Windows backslashes need escaping)
+"D:\Clinical_Trial\Data\SDTM"  # Error-prone
+```
+
+2.  Absolute Path vs Relative Path
+
+``` r
+"D:/Clinical_Trial/Data/SDTM/dm.xpt" # absolute / full path 
+
+"./Data/SDTM/dm.xpt" # relative path to working directory
+```
+
+3.  Working Directory
+
+```{r}
+getwd() # current working directory
+
+# setwd("D:/Clinical_Trial/Data/SDTM/") 
+# set working directory is not used here since we already have active project
+```
+
+2.  **Keyboard Shortcuts**:
+
+-   Run current line: `Ctrl+Enter` (Win) / `Cmd+Enter` (Mac)
+-   Comment/uncomment: `Ctrl+Shift+C`
+-   Auto-complete: `Tab`
+
+3.  **Getting Help**:
+
+```{r}
+?mean     # Shortcut for help
+```
