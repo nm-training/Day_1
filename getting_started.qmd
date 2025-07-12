@@ -1,5 +1,6 @@
 ---
 title: "Fundamentals of R"
+author: "R Trainer: Binod Jung Bogati (linkedin.com/in/bjungbogati)"
 format: html
 editor: visual
 ---
@@ -20,8 +21,8 @@ editor: visual
 
 ## Your Turn 01
 
-- Add: 10 + 20 
-- Substract: 10 - 20
+-   Add: 10 + 20
+-   Substract: 10 - 20
 
 ```{r}
 
@@ -45,8 +46,8 @@ median(10:20)
 
 ## Your Turn 02
 
-- Sum: 10 to 20 
-- Mean: 100 to 500
+-   Sum: 10 to 20
+-   Mean: 100 to 500
 
 ```{r}
 
